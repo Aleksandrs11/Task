@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>99iedvesmesstasti</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets\img\BlackLogo 3.svg" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Sakumlapa</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
+                    <li><a href="piesaki sapni.html">Piesaki sapņi</a></li>
+                    <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+                    <li><a href="sapnu banka.html">Sapņu banka</a></li>
+                    <li>
+                        <a href="sapnus atbalsta.html">Sapņus atbalsta</a>
+                    </li>
+                    <li>
+                        <a href="99iedvesmesstasti.html">99 iedvesmes stāsti</a>
+                    </li>
+                    <li><a href="lv.html">LV</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="textbox h2">
+        <p>99 IEDVESMAS STĀSTI</p>
+    </div>
+    <div class="textbox h3">
+        <p>
+            Atklāj kādu no 99 aizraujošajiem stāstiem
+        </p>
+    </div>
+    <div class="gallery">
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">1</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">2</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">3</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">4</span>
+            </div>
+        </div>
+        <div class="grid-cell" data-video="assets/img/BM_4OF99_Arta.mp4">
+            <div class="cell-content">
+                <div class="textbox-content Arta">
+                    <p>Arta Balode</p>
+                </div>
+                <span class="number">5</span>
+            </div>
+        </div>
+        <div id="lightbox" class="lightbox">
+            <span class="close-icon">X</span>
+            <div class="lightbox-content">
+                <video id="lightbox-video" controls>
+                    <source src="" type="video/mp4" />
+                </video>
+                <img id="lightbox-image" src="" alt="Lightbox Image" />
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Lauma_3.jpg">
+                <img src="assets\img\Lauma_3.jpg" alt="Lauma_3" class="cell-image">
+                <span class="number">6</span>
+            </div>
+        </div>
+
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Lauma_4.jpg">
+                <img src="assets\img\Lauma_4.jpg" alt="Lauma_4" class="cell-image">
+                <span class="number">7</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Sibilla_4.jpg">
+                <img src="assets\img\Sibilla_4.jpg" alt="Sibilla_4" class="cell-image">
+                <span class="number">8</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.jpg">
+                <img src="assets\img\Zanda_1.jpg" alt="Zanda_1" class="cell-image">
+                <span class="number">9</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Lauma_4.jpg">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">10</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">11</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">12</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">13</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">14</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">15</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">16</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <img src="assets\img\Alina_1 1.jpg" alt="Bilde" class="cell-image">
+                <span class="number">17</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content">
+                <div class="textbox-content Arta">
+                    <p>
+                        Jauns stāsts tiks pievienots drīzumā
+                    </p>
+                </div>
+                <span class="number">18</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">19</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">20</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">21</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">22</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">23</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">24</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">25</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">26</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">27</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">28</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">29</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">30</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">31</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">32</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">33</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">34</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">35</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">36</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">37</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">38</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">39</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">40</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">41</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.png" alt="Alina_1" class="cell-image">
+                <span class="number">42</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.png" alt="Anda_2" class="cell-image">
+                <span class="number">43</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">44</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.png" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">45</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.pn">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">46</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">47</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">48</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">49</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">500</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">51</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">52</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">53</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">54</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">55</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">56</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">57</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">58</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">59</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">60</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">61</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">62</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">63</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">64</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">65</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">66</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">67</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">68</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">69</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">70</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">71</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">72</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">73</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">74</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">75</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">76</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">77</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">78</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">79</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">80</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">81</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">82</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">83</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">84</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">85</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">86</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">87</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">88</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">89</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">90</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">91</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">92</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jpg" alt="Arta_2" class="cell-image">
+                <span class="number">93</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">94</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Alina_1.png">
+                <img src="assets\img\Alina_1.pn" alt="Alina_1" class="cell-image">
+                <span class="number">95</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">96</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Arta_2.jpg">
+                <img src="assets\img\Arta_2.jp" alt="Arta_2" class="cell-image">
+                <span class="number">97</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Zanda_1.png">
+                <img src="assets\img\Zanda_1.pn" alt="Brinuma_meita-2" class="cell-image">
+                <span class="number">98</span>
+            </div>
+        </div>
+        <div class="grid-cell">
+            <div class="cell-content" data-image="assets\img\Anda_2.png">
+                <img src="assets\img\Anda_2.pn" alt="Anda_2" class="cell-image">
+                <span class="number">99</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="textbox h2">
+        <p>SPARKLE HEART KOMANDA</p>
+    </div>
+    <div class="textbox h3">
+        <p>
+            Radošā komanda, kura strādā ar projektu 99 un starptautiskām Sparkle Heart īsfilmām.
+        </p>
+    </div>
+    <div class="image-row3">
+        <div class="image-column3">
+            <img src="assets\img\Rectangle 38 (1).jpg" alt="Rectangle38(1)" />
+        </div>
+        <div class="image-column3">
+            <img src="assets\img\Rectangle 39.jpg" alt="Rectangle39" />
+        </div>
+        <div class="image-column3">
+            <img src="assets\img\Rectangle 40.jpg" alt="Rectangle40" />
+        </div>
+    </div>
+    <div class="full-width-image">
+        <img src="assets\img\footer.png" alt="Footer" />
+    </div>
+    </div>
+    </div>
+    <!------JavaScript for galery------->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const lightbox = document.getElementById("lightbox");
+            const lightboxVideo = document.getElementById("lightbox-video");
+            const lightboxImage = document.getElementById("lightbox-image");
+            const closeIcon = document.querySelector(".close-icon");
+
+            // Uzstādīt notikumus, kad lietotājs noklikšķina uz attēla vai video
+            document.querySelectorAll(".cell-content").forEach(function (cellContent) {
+                cellContent.addEventListener("click", function () {
+                    const videoSrc = this.parentElement.getAttribute("data-video");
+                    const imageSrc = this.getAttribute("data-image");
+
+                    if (videoSrc) {
+                        lightboxVideo.src = videoSrc;
+                        lightboxVideo.style.display = "block"; // Rāda video lightbox
+                        lightboxImage.style.display =
+                            "none"; // Paslēpj attēlu, ja tas bija redzams
+                    } else if (imageSrc) {
+                        lightboxImage.src = imageSrc;
+                        lightboxImage.style.display = "block"; // Rāda attēlu lightbox
+                        lightboxVideo.style.display =
+                            "none"; // Paslēpj video, ja tas bija redzams
+                    }
+
+                    lightbox.style.display = "block"; // Rāda lightbox
+                });
+            });
+
+            // Notikums, kad lietotājs noklikšķina uz krustiņa, lai aizvērtu lightbox
+            closeIcon.addEventListener("click", function () {
+                lightbox.style.display = "none"; // Paslēpj lightbox
+                lightboxVideo.pause(); // Aptur video atskaņošanu
+            });
+
+            // Notikums, kad attēls vai video ir iekšā lightbox
+            lightbox.addEventListener("click", function (event) {
+                if (event.target === lightbox) {
+                    lightbox.style.display = "none"; // Paslēpj lightbox
+                    lightboxVideo.pause(); // Aptur video atskaņošanu
+                }
+            });
+        });
+    </script>
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
