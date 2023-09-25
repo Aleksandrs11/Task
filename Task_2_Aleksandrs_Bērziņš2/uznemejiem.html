@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uzņēmējiem</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets\img\BlackLogo 3.svg" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Sakumlapa</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
+                    <li><a href="piesaki sapni.html">Piesaki sapņi</a></li>
+                    <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+                    <li><a href="sapnu banka.html">Sapņu banka</a></li>
+                    <li>
+                        <a href="sapnus atbalsta.html">Sapņus atbalsta</a>
+                    </li>
+                    <li>
+                        <a href="99iedvesmesstasti.html">99 iedvesmes stāsti</a>
+                    </li>
+                    <li><a href="lv.html">LV</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="textbox h2">
+        <p>UZŅĒMĒJIEM</p>
+    </div>
+    <div class="textbox h3">
+        <p>
+            Ja ticat labākas pasaules attīstībai un vēlaties piedalīties starptautisku ideju realizēšanā, tad
+            priecāsimies ar Jums iepazīties.
+        </p>
+    </div>
+    <div class="input-div">
+        <p class="input-title">PALĪDZI ĪSTENOT SAPNI!</p>
+        <div class="input-div-inner">
+            <div class="input-div-row">
+                <input id="input-name" type="text" placeholder="Vārds, Uzvārds*"></input>
+                <input id="input-email" type="text" placeholder="E-pasts*"></input>
+            </div>
+            <input id="input-phone" type="text" placeholder="Telefons*"></input>
+            <textarea id="input-question" placeholder="Jautājums vai komentārs*"></textarea>
+            <p class="input-comment">* obligāti aizpildāmie lauki</p>
+
+            <div class="input-accept">
+                <div id="input-checkbox">
+                    <input onchange="check()" id="accept-checkbox" type="checkbox"></input>
+                </div>
+                <p id="checkbox-text">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks
+                    saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+            </div>
+            <div class="buttons-div-inner">
+                <div class="button-send">
+                    <a class="button">Sūtīt</a>
+                </div>
+            </div>
+        </div>
+        <div class="full-width-image">
+            <img src="assets\img\footer.png" alt="Footer" />
+        </div>
+    </div>
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!------JavaScript for checkbox------->
+    <script src="assets\js\script1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piesaki sapņi</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets\img\BlackLogo 3.svg" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Sakumlapa</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
+                    <li><a href="piesaki sapni.html">Piesaki sapņi</a></li>
+                    <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+                    <li><a href="sapnu banka.html">Sapņu banka</a></li>
+                    <li>
+                        <a href="sapnus atbalsta.html">Sapņus atbalsta</a>
+                    </li>
+                    <li>
+                        <a href="99iedvesmesstasti.html">99 iedvesmes stāsti</a>
+                    </li>
+                    <li><a href="lv.html">LV</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="textbox h2">
+        <p>PIESAKI SAPŅI</p>
+    </div>
+    <div class="textbox h3">
+        <p>
+            Tev ir iespēja pieteikt personīgo vai profesionālo
+            sapni.
+        </p>
+    </div>
+    <div class="buttons-div">
+        <div class="buttons-div-inner">
+            <img src="assets\img\Group 12.png" alt="Group 12" />
+            <p>PERSONĪGAIS SAPNIS</p>
+            <div class="textbox-content">Bērnības nepiepildītie sapņi... No sev piederoša svaigi spiestas sulas bāra uz
+                Tērbatas ielas līdz iespējai satikties ar Džekiju Čanu.</div>
+            <div class="buttons-div-inner-buttons left">
+                <a class="button">Pieteikt Sapni</a>
+            </div>
+        </div>
+        <div class="buttons-div-inner">
+            <img src="assets\img\Group 13.png" alt="Group 13" />
+            <p>PROFESIONĀLAIS SAPNIS</p>
+            <div class="textbox-content">Sapnis vai ideja, kura ir balstīta uz reģiona, pasaules vai cilvēku attīstību 4
+                virzienos - kultūra, izglītība, zinātne, ģimene jeb sociālā vide. Tā ir iespēja attīstīt ideju, kas
+                uzlabotu ikdienas dzīves kvalitāti vai atrisinātu vietēja vai starptautiska līmeņa problēmu. Pastāsti,
+                kāpēc Tev tas ir tik nozīmīgi?</div>
+            <div class="buttons-div-inner-buttons">
+                <a class="button">Pieteikt Sapni</a>
+            </div>
+        </div>
+    </div>
+    <img class="transition-top" src="assets/img/ripped 6 7.svg" />
+    <div class="photos-div-col">
+        <div class="photos-div-row">
+            <img class="photo" id="photo1" src="assets\img\Lauma_4.jpg" />
+            <div class="photos-inner" id="photo3">
+                <img src="assets\img\Brinuma_meita-3.jpg" />
+                <img src="assets\img\Anda_2.png" />
+            </div>
+            <img class="photo" id="photo2" src="assets\img\Lauma_3.jpg" />
+
+            <img class="photo" id="photo4" src="assets\img\Brinuma_meita-2.jpg" />
+        </div>
+        <div>
+            <img class="transition-bottom" src="assets/img/ripped 6 8.svg" />
+        </div>
+    </div>
+    <div class="photos-div-mobile">
+        <img src="assets/img/center_image_mobile.png" />
+    </div>
+    <div class="input-div">
+        <p class="input-title">SAZINĀTIES AR MUMS</p>
+        <div class="input-div-inner">
+            <div class="input-div-row">
+                <input id="input-name" type="text" placeholder="Vārds, Uzvārds*"></input>
+                <input id="input-email" type="text" placeholder="E-pasts*"></input>
+            </div>
+            <input id="input-phone" type="text" placeholder="Telefons*"></input>
+            <textarea id="input-question" placeholder="Jautājums vai komentārs*"></textarea>
+            <p class="input-comment">* obligāti aizpildāmie lauki</p>
+
+            <div class="input-accept">
+                <div id="input-checkbox">
+                    <input onchange="check()" id="accept-checkbox" type="checkbox"></input>
+                </div>
+                <p id="checkbox-text">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks
+                    saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+            </div>
+            <div class="buttons-div-inner">
+                <div class="button-send">
+                    <a class="button">Sūtīt</a>
+                </div>
+            </div>
+        </div>
+        <div class="full-width-image">
+            <img src="assets\img\footer.png" alt="Footer" />
+        </div>
+    </div>
+    </div>
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!------JavaScript for checkbox------->
+    <script src="assets\js\script1.js"></script>
+</body>
+
+</html>

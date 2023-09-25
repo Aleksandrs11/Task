@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapņus atbalsta</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets\img\BlackLogo 3.svg" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Sakumlapa</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
+                    <li><a href="piesaki sapni.html">Piesaki sapņi</a></li>
+                    <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+                    <li><a href="sapnu banka.html">Sapņu banka</a></li>
+                    <li>
+                        <a href="sapnus atbalsta.html">Sapņus atbalsta</a>
+                    </li>
+                    <li>
+                        <a href="99iedvesmesstasti.html">99 iedvesmes stāsti</a>
+                    </li>
+                    <li><a href="lv.html">LV</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="textbox h2">
+        <p>SAPŅUS ATBALSTA</p>
+    </div>
+    <div class="textbox h3">
+        <p>
+            JSadarbības partneri ir uzņēmumi, kuri savā preču vai
+            pakalpojumu ikdienā ir integrējuši SparkleHeart zīmolu
+            un dala ar to konkrētu daļu savu ienākumu.
+        </p>
+    </div>
+    <div class="column-container8">
+        <div class="column8">
+            <h2>Uzņēmuma atrašanās vieta</h2>
+            <select id="locationDropdown">
+                <option value="" disabled selected>Izvēlies</option>
+                <option value="address1">Rīga</option>
+                <option value="address2">Jelgava</option>
+                <option value="address3">Ogre</option>
+            </select>
+        </div>
+        <div class="column8">
+            <h2>Uzņēmuma veids</h2>
+            <select id="typeDropdown">
+                <option value="" disabled selected>Izvēlies</option>
+                <optgroup label="Ēdināšana">
+                    <option value="type1">PURCH restaurant</option>
+                    <option value="type2">Kurts coffee</option>
+                    <option value="type3">Akropole</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="column image-column5">
+            <img src="assets\img\IMG-5633 1.jpg" alt="IMG-5633" />
+        </div>
+        <div class="column text-column5">
+            <p>PURCH restaurant</p>
+        </div>
+        <div class="column text-column5">
+            <p>+371 25425254 Dzelzavas iela 51A</p>
+        </div>
+    </div>
+    <div class="container5">
+        <div class="column image-column5">
+            <img src="assets\img\JAUNS LOGO-KURTS 1.jpg" alt="JAUNS LOGO-KURTS" />
+        </div>
+        <div class="column text-column5">
+            <p>Kurts coffee</p>
+        </div>
+        <div class="column text-column5">
+            <p>+371 23202079 Cēsu iela 20, Tērbatas iela 2i</p>
+        </div>
+    </div>
+    <div class="map-container2">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34804.95356843644!2d23.6104657!3d56.96062905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2slv!4v1694283465748!5m2!1sru!2slv"
+            width="100%" height="600" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="map-container2"></div>
+
+    <div class="full-width-image">
+        <img src="assets\img\footer.png" alt="Footer" />
+    </div>
+    </div>
+    </div>
+    <!------JavaScript for Google maps------->
+    <script src="assets\js\theme.js"></script>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

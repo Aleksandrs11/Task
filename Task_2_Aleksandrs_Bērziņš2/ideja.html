@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="lv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ideja</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets\img\BlackLogo 3.svg" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Sakumlapa</a></li>
+                    <li><a href="ideja.html">Ideja</a></li>
+                    <li><a href="piesaki sapni.html">Piesaki sapņi</a></li>
+                    <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+                    <li><a href="sapnu banka.html">Sapņu banka</a></li>
+                    <li>
+                        <a href="sapnus atbalsta.html">Sapņus atbalsta</a>
+                    </li>
+                    <li>
+                        <a href="99iedvesmesstasti.html">99 iedvesmes stāsti</a>
+                    </li>
+                    <li><a href="lv.html">LV</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="textbox h2">
+        <p>IDEJA</p>
+    </div>
+    <div class="textbox h3">
+        <p>
+            Juris Gogulis ir pasaules iedvesmots
+            mākslinieks–horeogrāfs un režisors, kura ikdiena aizrit
+            radot aizkustinošus un iedvesmojošus radošus projektus.
+            Juris ir pārliecināts, ka ir vērts ticēt katram savam
+            sapnim un censties to īstenot. Kā smejas pats - daudzu
+            draugu sapņiem viņš tic vairāk, nekā viņi paši!
+        </p>
+    </div>
+    <div class="full-width-image">
+        <img src="assets\img\Rectangle 38.jpg" alt="Rectangle 38" />
+    </div>
+
+    <div class="last-sentence bold">
+        <p>Ken Ludden</p>
+    </div>
+    <div class="last-sentence normal">
+        <p>
+            Director, Margot Fonteyn Academy of Ballet</p>
+    </div>
+    <div class="last-sentence italic">
+        <p>
+            For it is Juris work that is the light the human race needs so
+            badly these days. His vision is inspired and talent is beyond
+            measure.</p>
+    </div>
+    <div class="button-container lr">
+        <button class="button left-arrow">&lt;</button>
+        <span class="dots">...</span>
+        <button class="button right-arrow">&gt;</button>
+    </div>
+    <div class="full-width-image">
+
+        <img src="assets\img\footer.png" alt="Footer" />
+    </div>
+    </div>
+    </div>
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
