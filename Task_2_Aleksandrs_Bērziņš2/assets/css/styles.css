@@ -305,9 +305,10 @@ nav .fa {
 }
 
 .buttons-div {
-	padding: 150px 0;
+	padding: 1rem 0;
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	width: 100%;
 }
 
@@ -343,7 +344,7 @@ nav .fa {
 	}
 
 	.buttons-div-inner-buttons {
-		margin-top: 30px !important;
+		margin-top: 10px !important;
 	}
 }
 
@@ -372,7 +373,6 @@ nav .fa {
 	line-height: 50px;
 	text-align: center;
 	margin: auto;
-	margin-top: 10px;
 	width: 233px;
 	height: 50px;
 	background-color: #FFA800;
@@ -655,7 +655,7 @@ footer img {
 
 /*...........................PIESAKI SAPŅI...........*/
 .textbox-content {
-	padding: 0 80px !important;
+	padding: 0 1rem 0 1rem !important;
 	width: auto !important;
 	margin-top: 1rem;
 	font-size: 18px;
@@ -769,11 +769,15 @@ p {
 
 .container5 {
 	position: relative;
+	width: 65% !important;
+	margin: auto;
+	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	margin: 5rem 15rem 2rem;
+	padding: 2rem;
+
 }
 
 .column.image-column5 img {
