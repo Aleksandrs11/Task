@@ -671,12 +671,6 @@ footer img {
 	text-align: center;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .container1 {
 	padding: 15px 0;
 	display: flex;
@@ -685,11 +679,9 @@ footer img {
 }
 
 .column1 {
-
 	flex: 1;
 	/* Dalām platumu vienādos daļās */
 	padding: 20px;
-	/* Pievienojam polsteri ap elementiem */
 	text-align: center;
 }
 
@@ -701,6 +693,7 @@ p {
 	font-size: 18px;
 	line-height: 1.6;
 	color: #333;
+	width: 100% !important;
 }
 
 .h3 {
